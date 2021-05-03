@@ -1,0 +1,66 @@
+body{
+	background-color: rgb(20,20,20);
+}
+
+h1{
+	font-size: 40px;
+	color: rgb(230,230,230);
+	padding-left: 20px;
+}
+
+.subcontainer{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.caja, .caja2, .caja3, .caja4{
+	height: 100px;
+	flex-basis: 100px;
+	background-color: #fff;
+	padding: 10px; 
+	margin: 15px;
+	transition: .5s;
+	flex-wrap: wrap;
+}
+
+div div div:hover{
+	background-color: #889e;
+}
+
+
+.caja{
+	background-color: #ff7514;
+	flex-grow: .5;
+}
+
+.caja2{
+	background-color: rgb(40,20,200);
+}
+
+.caja3{
+	background-color: green;
+}
+
+.caja4{
+	background-color: red;
+	flex-shrink: 2
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

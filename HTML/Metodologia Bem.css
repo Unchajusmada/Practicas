@@ -1,0 +1,11 @@
+.contact-form__input:first-child{
+	color:orange;
+}
+
+.contact-form__input--active{
+	color:blue;
+}
+
+.contact-form__input--nonactive{
+	color:green;
+}
